@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatolii Krymov</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header id="header">
+        <a class="navbar-brand" href="#">Anatolii Krymov</a>
+        <div class="burger-menu" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="closeMenu()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" onclick="closeMenu()">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" onclick="closeMenu()">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects" onclick="closeMenu()">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" onclick="closeMenu()">Contact</a>
+                </li>
+                <!-- Social Icons in Burger Menu -->
+                <li class="nav-item social-icons-burger">
+                    <a href="https://x.com/Anatolii_Kr3?t=lnNs2phdX8aCbGoDXNMI4A&s=35" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/_anatolii_kr_?igsh=MWtuYzEzNWNibGt5aw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/Wh1towich" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <a href="https://x.com/Anatolii_Kr3?t=lnNs2phdX8aCbGoDXNMI4A&s=35" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/_anatolii_kr_?igsh=MWtuYzEzNWNibGt5aw==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me/Wh1towich" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+        </div>
+    </header>
+
+    <div class="fix-padding">
+        <div class="content container">
+            <section class="highlight-section">
+                <div class="image">
+                    <img src="img/processed_image_gradient.jpg" alt="Profile Image">
+                </div>
+                <div class="text">
+                    <h4>Hi, I'm Anatolii Krymov 👋</h4>
+                    <h1>3D designer, 3D artist / 3D visualizer</h1>
+                    <p>I create visualizations of interiors and exteriors, as well as individual models of objects, I live in Ukraine, Khmelnytskyi.</p>
+                    <a href="resume.html" class="btn btn-getintouch ">Check Resume</a>
+                    <div class="stats">
+                        <div class="stat">
+                            <h2>1+</h2>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h2>50+</h2>
+                            <p>Created Models</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+       
+       
+
+        <div class="content container">
+            <section id="about" class="intro-section">
+                <div class="image">
+                    <img src="img/111.jpg" alt="Profile Image" onclick="openModal()">
+                </div>
+                <div class="text">
+                    <h1>3D Designer, 3D Artist, and 3D Visualizer with a Passion for Creating Stunning Visualizations</h1>
+                    <p style="margin-top: 20px;">Hello, I'm Anatolii Krymov. I am a talented, ambitious, and hardworking professional with broad skills and experience in 3D design, specifically as a 3D designer, 3D artist, and 3D visualizer. I create stunning visualizations and bring ideas to life through my expertise in 3D modeling and visualization. I learn new things quickly and am always open to mastering new technologies and techniques.</p>
+                    <a href="#contact" class="btn btn-getintouch">Get in touch!</a>
+                    <a href="#projects" class="btn btn-getintouch">Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+        </div>
+
+        <!-- Services Section -->
+        <div class="content container">
+            <section class="services-section">
+                <h2 id="services" class="text-center">My Services</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <img src="img/3d-01.png" alt="Service Icon">
+                        <h3 class="my-3">3D Modeling & Rendering</h3>
+                        <p>I create high-quality 3D models and renderings using software like 3Ds Max, Chaos Corona, and Marvelous Designer to bring your ideas to life with stunning realism and detail.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="img/grdes-01.png" alt="Service Icon">
+                        <h3 class="my-3">Graphic Design</h3>
+                        <p>From logos to complete branding, I use Adobe Photoshop and Adobe Illustrator to craft visually compelling designs that effectively communicate your brand's message.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="img/texture-01.png" alt="Service Icon">
+                        <h3 class="my-3">Texturing & Materials</h3>
+                        <p>I create high-quality textures and materials to enhance the visual appeal and realism of 3D models, ensuring every project has a professional finish. This includes developing detailed and accurate textures for various surfaces, providing a polished look to all 3D visualizations.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="img/strategy-01.png" alt="Service Icon">
+                        <h3 class="my-3">Design Consultation & Strategy</h3>
+                        <p>Offering professional design consultation and strategy development to optimize your projects and ensure they meet your aesthetic and functional goals.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="content container">
+            <section class="skills-section">
+                <h2 class="text-center">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <img src="img/photoshop_5968520.png" alt="Skill Icon">
+                        <h3>Adobe Photoshop</h3>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/illustrator_5968472.png" alt="Skill Icon">
+                        <h3>Adobe Illustratоr</h3>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/computer_8108125.png" alt="Skill Icon">
+                        <h3>Design</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="skills-section">
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <a href="AAP Course_EM090709775217_Autodesk AutoCAD 2023  04_12_2023-15_03_2024.pdf"><img src="img/autocad-logo-69326D7728-seeklogo.com.png" alt="Skill Icon"></a>
+                        <h3>AutoCAD</h3>
+                    </div>
+                    <div class="skill-item">
+                        <a href="AAP Course_EM090709784155_Autodesk 3dsMAX 2023 _ 04_12_2023 по 29_05_03_2024.pdf"><img src="img/3ds-max-logo-9B624BE04F-seeklogo.com.png" alt="Skill Icon"></a>
+                        <h3>3Ds Max(+Chaos Corona)</h3>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/Marvelous-Designer.png" alt="Skill Icon">
+                        <h3>Marvelous Designer</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center">
+                <p class="text-center">
+                    <span class="visually-hidden" style="font-size: x-large;">In progress</span>
+                    <span class="spinner-border spinner-border-sm mb-1" role="status" aria-hidden="true"></span>
+                </p>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <img src="img/Adobe_Premiere_Pro_CC_icon.svg.png" alt="Skill Icon">
+                        <h3>Adobe Premiere</h3>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/autodesk-maya-logo-A8D58F0B59-seeklogo.com.png" alt="Skill Icon">
+                        <h3>Maya 3D</h3>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/255-2553072_zbrush-logo-hd-png-download.png" alt="Skill Icon">
+                        <h3>ZBrush</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- My Works Section -->
+        <div class="content container">
+            <section id="projects" class="works-section">
+                <h2 class="text-center">My Works</h2>
+                <div class="work-item">
+                    <img src="living/1/1.jpg" class="img_proj" alt="Work Image 1">
+                    <div class="work-description my-auto">
+                        <h3>The interior of the rooms of a modern house</h3>
+                        <p>The modern design of the rooms, which combines comfort and style, creating a cozy atmosphere for residents, is made in dark and pastel colors.</p>
+                        <div class="work-links my-5">
+                            <a href="projects.html" class="btn btn-getintouch">View</a>
+                        </div>
+                        <div class="tags">
+                            <span>#3dsmax</span>
+                            <span class="my-3">#coronarenderer</span>
+                            <span class="my-3">#interior</span>
+                            <span>#visualization</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="img/brand.png" class="img_proj" alt="Work Image 2">
+                    <div class="work-description my-auto">
+                        <h3>Brand Book Film Company</h3>
+                        <p>A comprehensive brand book for a film company that reflects its unique style and identity, ensuring consistency in all communications..</p>
+                        <div class="work-links my-5">
+                            <a href="Brand_Book_Nemes_Studio.pdf" class="btn btn-getintouch">View</a>
+                        </div>
+                        <div class="tags">
+                            <span>#brandbook</span>
+                            <span class="my-3">#logo</span>
+                            <span class="my-3">#illustrator</span>
+                            <span>#indesign</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <img src="models/2_1.jpg" class="img_proj" alt="Work Image 3">
+                    <div class="work-description">
+                        <h3>Single modern objects</h3>
+                        <p>Custom 3D models that display high detail and realism for a variety of projects.</p>
+                        <div class="work-links my-5">
+                            <a href="single_objects.html" class="btn btn-getintouch">View</a>
+                        </div>
+                        <div class="tags">
+                            <span>#object</span>
+                            <span class="my-3">#marvelousdesigner</span>
+                            <span class="my-3">#3dsmax</span>
+                            <span>#highpoly</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Modal for full screen image -->
+        <div id="myModal" class="modal">
+            <div id="carouselExampleIndicators" class="carousel slide modal-content" data-ride="carousel">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/111.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/222.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/333.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        
+
+
+        <!-- Contact Section -->
+        <div class="content container">
+            <section id="contact" class="contact-section">
+                <div class="contact-info my-auto">
+                    <h2>Let's Get In Touch!</h2>
+                    <p>Always available for interesting offers))).<br>
+                        You can contact me using the contacts below,<br> or write to me via the <span style="color: aqua;">Button</span> on the right.</p>
+                    <ul class="contact-details">
+                        <li><i class="fas fa-phone"></i> +380 (67) 435 1453</li>
+                        <li><i class="fas fa-envelope"></i> anatoliikrymov@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Khmelnytskyi, Ukraine</li>
+                        <li><i class="fab fa-instagram"></i>_anatolii_kr_</li>
+                        <li><i class="fab fa-telegram-plane"></i> @Wh1towich</li>
+                    </ul>
+                </div>
+                <div class="contact-button my-auto">
+                    <img src="img/write-01.png" class="img_write">
+                    <a href="mailto:anatoliikrymov@gmail.com" class="btn btn-send-email">Email Me</a>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-left">
+                        <p>© 2024 · Anatolii Krymov · All rights reserved</p>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <a href="#" class="footer-link">Terms & Conditions</a>
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Заміна jQuery Slim на повну версію jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav').classList.toggle('active');
+        }
+
+        function closeMenu() {
+            document.querySelector('.nav').classList.remove('active');
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        function openModal() {
+            document.getElementById('myModal').style.display = "block";
+        }
+
+        $(document).ready(function () {
+            $('.image img').click(function() {
+                openModal();
+            });
+});
+
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#header').addClass('scrolled');
+                } else {
+                    $('#header').removeClass('scrolled');
+                }
+
+                // Show or hide the scroll to top button
+                if ($(this).scrollTop() > 800) {
+                    $('#scrollToTop').fadeIn();
+                } else {
+                    $('#scrollToTop').fadeOut();
+                }
+            });
+
+            $('#scrollToTop').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 800);
+                return false;
+            });
+
+            // Rotate icons on hover
+            $('.service-item img, .skill-item img').hover(
+                function() {
+                    $(this).css({
+                        'transition': 'transform 0.5s',
+                        'transform': 'rotate(360deg)'
+                    });
+                },
+                function() {
+                    $(this).css({
+                        'transition': 'transform 0.5s',
+                        'transform': 'rotate(-360deg)'
+                    });
+                }
+            );
+        });
+    </script>
+</body>
+</html>
